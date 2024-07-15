@@ -10,7 +10,9 @@ def main():
     |___/ \___/|_|  |_|\_\ \_____/\__,_|_.__/ 
                                             
     """
+    github = "https://github.com/erichutabarat/DorkLab\n\n"
     print(banner)
+    print(github)
     keyword = input("Enter keyword: ")
     main_lab = Lab(keyword)
     
